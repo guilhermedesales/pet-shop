@@ -135,14 +135,48 @@ main > h1{
   background-color: var(--cor5);
   color: white;
 }
-
-
 footer{
+  margin: auto;
+  height: 350px;
   background-color: var(--cor3);
-  text-align: center;
   padding: 20px;
   color: white;
+  
 }
+footer > input{
+  width: 500px;
+  height: 30px;
+  margin: 20px;
+  display: block;
+  text-indent: 10px;
+  background-color: #123E59;
+  border-radius: 12px;
+}
+footer > textarea{
+  width: 500px;
+  margin: 20px;
+  display: block;
+  text-indent: 10px;
+  background-color: #123E59;
+ border-radius: 10px;
+}
+footer > a{
+ text-decoration: none;
+ color: white;
+ background-color: #123E59;
+ width: 80px;
+ text-align: center;
+ font-weight: bold;
+ display: block;
+ border-radius: 15px;
+ padding: 20px;
+ margin-left: 20px;
+ margin-top:30px ;
+}
+#msg{
+  padding-top: 10px;
+}
+
   </style>
 </head>
 <body>
@@ -155,14 +189,17 @@ footer{
       <a href="ratinhos.html">
         <li>Ratinhos</li>
       </a>
-      <a href="">
+      <a href="bolinhas.html">
         <li>Bolinhas</li>
       </a>
-      <a href="">
+      <a href="erva.html">
         <li>Erva de Gato</li>
       </a>
-      <a href="">
+      <a href="Interativos.html">
         <li>Interativos</li>
+      </a>
+      <a href="#formulario">
+        <li>Fale Conosco</li>
       </a>
     </ul>
   </nav>
@@ -217,11 +254,12 @@ footer{
       </div>
     </section>
   </main>
-  <footer>
-    <h2>formas de pagamento aceitas</h2>
+  <footer id="formulario">
+    <h2>Tire suas dúvidas aqui</h2>
+    <input placeholder="Seu Email" type="email">
+    <textarea placeholder="Mensagem..." name="msg" id="msg" cols="30" rows="10"></textarea>
+    <a href="">ENVIAR</a>
 
-  </footer>
-
-  
+  </footer> 
 </body>
 </html>
